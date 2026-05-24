@@ -1,0 +1,136 @@
+<!DOCTYPE html> <!--tipo do documento-->
+<html>
+    <head>
+       <title> Primeira pagina web em HTML</title>
+       <meta name="Description" content="Primeira pagina web em HTML">
+       <link rel="stylesheet" href="style.css">
+       <background img src="c:\Users\marko\OneDrive\Área de Trabalho\Fundo colorido de formulários sobrepostos _ Vetor Premium.html6"></background>
+    </head>
+    <body>
+        <header>
+            <h1>Primeira página</h1>
+            <p>Teste seus conhecimentos em html</p>
+        </header>
+        <main>
+            <section>
+                <h2>Sobre a programação</h2>
+                <p>A <strong> linguagem </strong>de programação <em> html </em> é estruturada em tags</p>
+                <p>A <abbr title="E coisa linda"> programação </abbr> é <abbr title="Denovo">intuitiva</abbr></p>
+
+            </section>
+
+            <section>
+                <h2>Sobre o HTML</h2>
+                <p>HTML é uma linguagem de marcação usada para criar páginas web.</p>
+                    <ul>
+                    <li>HTML significa HyperText Markup Language.</li>
+                    <li>É usado para estruturar o conteúdo na web.</li>
+                    <li>HTML é a base de todas as páginas web.</li>
+                    </ul>
+            </section>
+
+            <table border="1"> 
+
+                <tr>  
+                    <th style="background-color: rgb(163, 255, 127); color: rgb(37, 37, 11); width: 100px; height: 50px;"> NOME  </th>
+                    <th style="background-color: rgb(163, 255, 127); color: rgb(37, 37, 15); width: 150px;"> SOBRENOME</th>
+                    <th style="background-color: rgb(163, 255, 127); color: rgb(31, 31, 10); width: 100px;"> IDADE </th>
+                    <th style="background-color: rgb(163, 255, 127); color: rgb(39, 39, 13); width: 100px;"> CIDADE </th>
+                </tr>
+                <tr>
+                 <!--  <TD colspan="4"> TESTE</TD> -->
+                </tr>
+                <tr>
+                    <td style="height: 50px; text-align: center;">MARCOS</td>
+                    <td style="text-align: center;">VINICIUS</td>
+                    <td style="text-align: center;">40</td>
+                    <td style="text-align: center;">SAO PAULO</td>
+                </tr>
+                <tr> 
+                    <td style="text-align: center; height: 50px;">FELIPE</td>
+                    <td style="text-align: center;">ANDRADE</td>
+                    <td style="text-align: center;">15</td>
+                    <td style="text-align: center;">SAO PAULO</td>
+                </tr>
+                <TR>
+                  <!--  <TD rowspan="2"></TD> -->
+                </TR>
+            </table>
+
+            <section>
+                <h2 style="color: red;">Imagens</h2>
+                <p style="color:blue;">Veja abaixo uma imagem de exemplo:</p>
+
+                <a href="e:\Celular Thalita fotos s7\Camera\20190810_083943.jpg" > 
+                <img style="width: 450px;height: 450;" src="e:\Celular Thalita fotos s7\Camera\20190810_083943.jpg " alt="Imagem de exemplo">
+                </a>
+
+            </section>
+            <section>
+                <h2 style="color: aqua;">Qual é seu tipo de programador</h2>
+                <form >
+                    <label for ="programador">Selecione seu tipo de programador:</label>
+                    <select id="programador" name="programador">
+                        <option value="iniciante">Iniciante</option>
+                        <option value="intermediario">Intermediário</option>
+                        <option value="avancado">Avançado</option>
+                        </select>
+                </form>
+            </section>
+            <section>
+                <h2>Qual é sua linguagem de programacao favorita?</h2>
+                <form >
+                    <label for="linguagem">Selecione sua linguagem:</label><br>
+                        <input type="radio" name="linguagem" value="java">Java</input><br>
+                        <input type="radio" name="linguagem" value="csharp">C#</input><br>
+                        <input type="radio" name="linguagem" value="javascript" >JavaScript</input><br>
+                        <input type="radio" value="python">Python</input><br>
+                </form>
+            </section>
+
+            <section>
+                <form>
+  <fieldset>
+    <legend>Fruit juice size</legend>
+    <p>
+      <input type="radio" name="size" id="size_1" value="small" />
+      <label for="size_1">Small</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium" />
+      <label for="size_2">Medium</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_3" value="large" />
+      <label for="size_3">Large</label>
+    </p>
+  </fieldset>
+</form>
+            </section>
+            <section>
+                <form>
+                    <label for="nome" style="width: 100px;">nome:</label>
+                    <input type=text id="nome" name="nome" placeholder="digite seu nome..."><br>
+                    <label for="sobrenome" style="width: 100px;">sobrenome</label>
+                    <input type="text"id="sobrenome" name="sobrenome" placeholder="digite seu sobrenome..."><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required><br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br>
+                    <input type="submit" value="Enviar">
+                    </form>
+            </section>
+            <section>
+                <form>
+                    
+                </form>
+            </section>
+
+            
+           
+
+        </main>
+        <footer></footer>
+    </body>
+
+</html>
